@@ -112,5 +112,25 @@ Answer: From this pie chart we can see that:
 
 **How the outlet size and outlet location distribute in each outlet type?**
 
+![type](sizetype.png)
 
+Answer: From these pie charts we can see that:
+
+•	For the supermarket type 3 outlet, which makes the most sales, its outlet size is all medium and location type is all Tier 3. Same as supermarket type 2 outlet.
+
+•	Supermarket type 1 outlet has all three outlet location types and outlet size types. But almost half of the outsize type is medium.
+
+•	Grocery store type outlet makes much less sales compared to other 3 outlet types, but half of its outlet location type and outlet size type are Tier3 and medium.
+
+•	Overall, outlets with medium size and Tier 3 location tend to make more sales.
+
+## Part 4: Machine Learning: Training Models to Make the Best Prediction
+
+**Overview of the tasks done in this part:**
+
+In this part, data cleaning is done in two parts: before data spilt and after data spilt to prevent data leakage. After data spilt, columntransformer is created for getting data ready for machine learning. Last, training different models to find out the best model to make the prediction.
+
+**Maching Learning Using the Following Models:**
+
+(-) Linear Regression Model
 
