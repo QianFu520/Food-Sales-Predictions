@@ -132,5 +132,5 @@ In this part, data cleaning is done in two parts: before data spilt and after da
 
 **Maching Learning Using the Following Models:**
 
-(-) Linear Regression Model
+- Linear Regression Model
 
