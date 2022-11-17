@@ -132,5 +132,70 @@ In this part, data cleaning is done in two parts: before data spilt and after da
 
 **Maching Learning Using the Following Models:**
 
-- Linear Regression Model
+    - Linear Regression Model
+    
+    - Decision Tree Regressor Model
+    
+    - Tuned Decision Tree Regressor Model
+    
+    - Random Forest Regressor Model
+    
+    - Tuned Random Forest Regressor Model
+    
+**Models Evaluated & Results:**
 
+* Linear Regression Model (Testing Set):
+  * R^2 = 0.56
+  * MAE = 805.6
+  * MSE = 1198348.6
+  * RMSE = 1094.7
+  
+* Decision Tree Regressor Model (Testing Set):
+  * R^2 = 0.115
+  * MAE = 1077.609
+  * MSE = 2441050.699
+  * RMSE = 1562.386
+  
+* Tuned Decision Tree Regressor Model (Testing Set):
+  * R^2 = 0.595
+  * MAE = 738.317
+  * MSE = 1118185.973
+  * RMSE = 1057.443
+
+* Random Forest Regressor Model (Testing Set):
+  *  R^2 = 0.547
+  * MAE = 773.579
+  * MSE = 1249404.569
+  * RMSE = 1117.768
+
+* Tuned Random Forest Regressor Model (Testing Set):
+  * R^2 = 0.547
+  * MAE = 775.755
+  * MSE = 1249085.757
+  * RMSE = 1117.625
+  
+**The Final Model Chosen was `Linear Regression Model`.**
+
+  * For the testing set on the model, `56.6%` of the variance in y was explained by x.
+    
+  * The Mean Absolute Error was off by about `$805.567`.
+    
+  * The Mean Squared Error was `$1198348.589`.
+    
+  * The Root Mean Squared Error had a calculation of `$1094.691`.
+  
+we can see that comparing to other models, this model performances the highest R2 score and lowest RMSE score. So, using this model to make prediction of the food sales based on the properties of the food and the outlet type with different outlet location and outlet size can be considerd more reliable. 
+
+## Recommendations
+
+* From properties of food and outlet:
+  * Overall, most of the food with low fat make more sales. But for some food type, for example, seafood with regular fat is more popular. So, we can consider the food type when we decide to adjust the fat type of the food to increase the sales.
+  * The list price of the product has a positive correlation with the sales. we can consider to increase some popular items' list price to increase the sales.
+  * For the outlet, we can choose supermarket type 3 outlet type with location type is Tier3 and medium outlet size. 
+  
+ * Model Performance
+   * Overall, the best model is definitely the Linear Regression Model. There was still some bias in the model, but by far it outperformanced the other models were trained here.
+   
+## Limitations & Next Steps
+
+From here, we can use the insights from the visuals to decide what to change or adjust to make a increasement on the sales. 
