@@ -198,4 +198,14 @@ we can see that comparing to other models, this model performances the highest R
    
 ## Limitations & Next Steps
 
-From here, we can use the insights from the visuals to decide what to change or adjust to make a increasement on the sales. 
+From here, we can use the insights from the visuals to decide what to change or adjust to make a increasement on the sales. But I believe there are other factors that make influence of the sales. In reality, we can actually go to the store that makes the best sales to investigate what they have done to increase the sales. For example, a great customer service definitely help to increase the sales. 
+
+## For Further Information
+
+For any additional questions, please contact:
+
+* Qian Fu (Data Scientist)
+
+* qfu885612@gmail.com
+
+
